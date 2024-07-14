@@ -1,0 +1,100 @@
+{
+    "BiddingAgent": {
+        "checkpoints": [
+            {
+                "steps": 33735,
+                "file_path": "results/v69/BiddingAgent/BiddingAgent-33735.onnx",
+                "reward": 32.25737131434283,
+                "creation_time": 1719434058.1574492,
+                "auxillary_file_paths": [
+                    "results/v69/BiddingAgent/BiddingAgent-33735.pt"
+                ]
+            },
+            {
+                "steps": 331071,
+                "file_path": "results/v69/BiddingAgent/BiddingAgent-331071.onnx",
+                "reward": 61.86363636363637,
+                "creation_time": 1719456070.8990426,
+                "auxillary_file_paths": [
+                    "results/v69/BiddingAgent/BiddingAgent-331071.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 331071,
+            "file_path": "results/v69/BiddingAgent.onnx",
+            "reward": 61.86363636363637,
+            "creation_time": 1719456070.8990426,
+            "auxillary_file_paths": [
+                "results/v69/BiddingAgent/BiddingAgent-331071.pt"
+            ]
+        }
+    },
+    "GameDecidingAgent": {
+        "checkpoints": [
+            {
+                "steps": 2048,
+                "file_path": "results/v69/GameDecidingAgent/GameDecidingAgent-2048.onnx",
+                "reward": null,
+                "creation_time": 1719434058.1718173,
+                "auxillary_file_paths": [
+                    "results/v69/GameDecidingAgent/GameDecidingAgent-2048.pt"
+                ]
+            },
+            {
+                "steps": 5824,
+                "file_path": "results/v69/GameDecidingAgent/GameDecidingAgent-5824.onnx",
+                "reward": null,
+                "creation_time": 1719456070.9282157,
+                "auxillary_file_paths": [
+                    "results/v69/GameDecidingAgent/GameDecidingAgent-5824.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5824,
+            "file_path": "results/v69/GameDecidingAgent.onnx",
+            "reward": null,
+            "creation_time": 1719456070.9282157,
+            "auxillary_file_paths": [
+                "results/v69/GameDecidingAgent/GameDecidingAgent-5824.pt"
+            ]
+        }
+    },
+    "PlayingAgent": {
+        "checkpoints": [
+            {
+                "steps": 54798,
+                "file_path": "results/v69/PlayingAgent/PlayingAgent-54798.onnx",
+                "reward": -6.161424993042026,
+                "creation_time": 1719434058.1890051,
+                "auxillary_file_paths": [
+                    "results/v69/PlayingAgent/PlayingAgent-54798.pt"
+                ]
+            },
+            {
+                "steps": 179257,
+                "file_path": "results/v69/PlayingAgent/PlayingAgent-179257.onnx",
+                "reward": -6.792597319719209,
+                "creation_time": 1719456070.9149635,
+                "auxillary_file_paths": [
+                    "results/v69/PlayingAgent/PlayingAgent-179257.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 179257,
+            "file_path": "results/v69/PlayingAgent.onnx",
+            "reward": -6.792597319719209,
+            "creation_time": 1719456070.9149635,
+            "auxillary_file_paths": [
+                "results/v69/PlayingAgent/PlayingAgent-179257.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.3.1+cu121"
+    }
+}

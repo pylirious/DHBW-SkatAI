@@ -1,0 +1,73 @@
+{
+    "BiddingAgent": {
+        "checkpoints": [
+            {
+                "steps": 225724,
+                "file_path": "results/final/BiddingAgent/BiddingAgent-225724.onnx",
+                "reward": 54.735915492957744,
+                "creation_time": 1719428789.4343188,
+                "auxillary_file_paths": [
+                    "results/final/BiddingAgent/BiddingAgent-225724.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225724,
+            "file_path": "results/final/BiddingAgent.onnx",
+            "reward": 54.735915492957744,
+            "creation_time": 1719428789.4343188,
+            "auxillary_file_paths": [
+                "results/final/BiddingAgent/BiddingAgent-225724.pt"
+            ]
+        }
+    },
+    "GameDecidingAgent": {
+        "checkpoints": [
+            {
+                "steps": 3840,
+                "file_path": "results/final/GameDecidingAgent/GameDecidingAgent-3840.onnx",
+                "reward": null,
+                "creation_time": 1719428789.4487286,
+                "auxillary_file_paths": [
+                    "results/final/GameDecidingAgent/GameDecidingAgent-3840.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3840,
+            "file_path": "results/final/GameDecidingAgent.onnx",
+            "reward": null,
+            "creation_time": 1719428789.4487286,
+            "auxillary_file_paths": [
+                "results/final/GameDecidingAgent/GameDecidingAgent-3840.pt"
+            ]
+        }
+    },
+    "PlayingAgent": {
+        "checkpoints": [
+            {
+                "steps": 114870,
+                "file_path": "results/final/PlayingAgent/PlayingAgent-114870.onnx",
+                "reward": -6.3249211356466875,
+                "creation_time": 1719428789.465698,
+                "auxillary_file_paths": [
+                    "results/final/PlayingAgent/PlayingAgent-114870.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 114870,
+            "file_path": "results/final/PlayingAgent.onnx",
+            "reward": -6.3249211356466875,
+            "creation_time": 1719428789.465698,
+            "auxillary_file_paths": [
+                "results/final/PlayingAgent/PlayingAgent-114870.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.3.1+cu121"
+    }
+}
